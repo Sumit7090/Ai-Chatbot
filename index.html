@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <aside class="sidebar">
+            <h2>✦ My AI</h2>
+
+            <button id="newChat" class="new-chat">+ New Chat</button>
+
+            <h3>Chat History</h3>
+
+            <div id="historyList" class="history-list"></div>
+
+            <div class="side-bottom">Powered by Gemini AI</div>
+        </aside>
+
+        <main class="chat-area">
+
+            <header>
+                <h2>AI Assistant</h2>
+                <button id="clearChat">Clear Chat</button>
+            </header>
+
+            <section id="chatBox" class="chat-box">
+                <div class="welcome">
+                    <h1>✦ Hello, I'm your AI</h1>
+                    <p>How can I help you today?</p>
+                </div>
+            </section>
+
+            <div class="input-area">
+                <input
+                    type="text"
+                    id="userInput"
+                    placeholder="Ask me anything..."
+                    autocomplete="off"
+                >
+                <button id="sendBtn">➤</button>
+            </div>
+
+            <p class="disclaimer">
+                AI can make mistakes. Check important information.
+            </p>
+
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
